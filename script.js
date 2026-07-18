@@ -5,9 +5,9 @@
    (see SETUP-EMAIL.md for the 5-minute walkthrough)
 ────────────────────────────────────────────── */
 const EMAILJS_CONFIG = {
-  publicKey: "",   // EmailJS → Account → Public Key
-  serviceId: "",   // EmailJS → Email Services → your Gmail service ID
-  templateId: "",  // EmailJS → Email Templates → your template ID
+  publicKey: "kSPIqaO8IulSdI1bk",   // EmailJS → Account → Public Key
+  serviceId: "service_6dlsnmq",     // EmailJS → Email Services → your Gmail service ID
+  templateId: "template_ua474e8",   // EmailJS → Email Templates → your template ID
 };
 
 const emailConfigured = Object.values(EMAILJS_CONFIG).every((v) => v.trim() !== "");
